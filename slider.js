@@ -37,9 +37,15 @@ let arrImages = [{
             }, 2000 * (index + 1));
         }
     });
-    docyment.querySelector('#butl').addEventListener('click', () => {
-     
-    })
+    document.querySelector('#butl').addEventListener('click', addImages => {
+     return arrImages[index++]
+    });
+    document.querySelector('#butr').addEventListener('click', addImages => {
+      return arrImages[index--]
+     });
+    document.querySelector('.dot').addEventListener('click', addImages => {
+      return arrImages[index++]
+     });
    
 }
  addImages()

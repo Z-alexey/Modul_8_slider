@@ -52,6 +52,7 @@ main {
   }
   .slider-arrow:hover {
     color: rgb(0, 6, 94);
+    border-color: rgba(0, 0, 255, .5);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     transform: scale(1.15);
   }
@@ -80,4 +81,9 @@ main {
     width: 20px;
     height: 20px;
     border-radius: 57%;
+}
+.dot:hover {
+  border-color: rgba(0, 0, 255, .5);
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .1);
+  transform: scale(1.1);
 }
